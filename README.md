@@ -8,7 +8,11 @@ This repository contains a synthesizable SystemVerilog prototype of a Smart Home
 
 - `rtl/`: Core synthesizable RTL modules
 - `tb/`: SystemVerilog testbench
-
+- `fpga/de10_lite/`: DE10-Lite FPGA wrapper top module
+- `constraints/de10_lite/`: Quartus project constraints (`.qsf`, `.sdc`)
+- `docs/`: Board mapping and utilization report
+- `docs/final_project_report.md`: Full report-ready writeup for submission
+- 
 ## Implemented Hardware Blocks
 
 1. `global_mode_register.sv`
