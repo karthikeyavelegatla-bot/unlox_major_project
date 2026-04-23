@@ -52,6 +52,8 @@ module smart_home_soc_tb;
     );
 
     initial begin
+        $dumpfile("dump.vcd");
+        $dumpvars(0, smart_home_soc_tb);
         clk = 1'b0;
         forever #5 clk = ~clk;
     end
